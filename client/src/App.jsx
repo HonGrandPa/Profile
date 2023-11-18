@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import { BrowserRouter, Route, Routes, } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -12,15 +10,12 @@ function App() {
 
   return (
     <div>
-    <BrowserRouter>
       <Header />
       <Hero />
       <About />
       <Skill />
       <Projects />
       <Contact />
-    </BrowserRouter>
-      
     </div>
   )
 }
