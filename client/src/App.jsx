@@ -1,22 +1,15 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skill from './components/Skill'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import { BrowserRouter, Route, Routes, } from 'react-router-dom'
+import Main from './page/Main'
 
 
 function App() {
 
   return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Skill />
-      <Projects />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/'  element={<Main />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
