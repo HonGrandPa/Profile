@@ -1,7 +1,9 @@
 import React from 'react'
 import img from "../assets/imgs/head.jpg"
+import cv from '../assets/files/Hlin_Resume.pdf'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -18,14 +20,14 @@ const Hero = () => {
                 </div>
 
                 <div className='flex gap-5 md:pl-4 '>
-                    <div className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-1'>
+                    <a href={cv} download={cv} className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-1'>
                     <button>Download CV</button>
                     <FaDownload className='text-[16px] mb-[0.8px]'/>
-                    </div>
-                    <div className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-0.5'>
+                    </a>
+                    <Link to={'https://www.linkedin.com/in/honlin31/'} className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-0.5'>
                     <button>My Linkedin</button>
                     <AiOutlineLinkedin className='text-[18px] mt-[0.5px]' />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </section>

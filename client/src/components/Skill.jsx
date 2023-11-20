@@ -17,13 +17,13 @@ const Skill = () => {
                         <VscGraph className='text-lg mt-1' />
                         <h2 className='text-lg'>Technical Skills</h2>
                     </div>
-                    <div className='gap-[11px] text-[11px] font-poppins flex flex-wrap justify-evenly sm:min-w-[310px] w-[210px]'>
+                    <div className='gap-[18px] text-[11px] font-poppins flex flex-wrap justify-evenly sm:min-w-[310px] w-[210px]'>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Excel</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>MySQL</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>MongoDB</li>
-                        <li className='hover:text-[11.5px] list-none select-none duration-200'>R</li>
-                        <li className='hover:text-[11.5px] list-none select-none duration-200'>JavaScript</li>
-                        <li className='hover:text-[11.5px] list-none select-none duration-200'>React</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>ReactJS</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>Redux</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>FireBase</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>NodeJS</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>ExpressJS</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>HTML</li>
@@ -40,12 +40,15 @@ const Skill = () => {
                         <FaPeopleGroup className='text-lg' />
                         <h2 className='text-lg'>Soft Skills</h2>
                     </div>
-                    <div className='flex flex-wrap gap-3 text-[11px] font-poppins sm:min-w-[310px] w-[210px] justify-evenly'>
+                    <div className='flex flex-wrap gap-[18px] text-[11px] font-poppins sm:min-w-[310px] w-[210px] justify-evenly items-center'>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Communication</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Project Management</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Problem-Solving</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Team Collaboration</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Time Management</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>Adaptability</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>Conflict Resolution</li>
+                        <li className='hover:text-[11.5px] list-none select-none duration-200'>Creativity</li>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ const Header = () => {
     const [isToggled, setIsToggled] = useState(false);
     const [currectSection, setCurrentSection] = useState('');
 
-    console.log(currectSection);
+    //console.log(currectSection);
 
     const handleClick = (e) => {
 

@@ -55,7 +55,7 @@ const Contact = () => {
     <section id='contactsection'>
       <hr className="mx-auto w-7/12 border-slate-800/40" />
       <div className='flex flex-col items-center my-5 gap-0.5'>
-        <p className='text-[8px] font-[300] uppercase'>Get In Toucht</p>
+        <p className='text-[8px] font-[300] uppercase'>Get In Touch</p>
         <h1 className='text-3xl '>Contact Me</h1>
       </div>
       <form ref={form} className='select-none' onSubmit={sendEmail} >
