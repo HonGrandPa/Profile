@@ -13,14 +13,11 @@ const About = () => {
             <div className='text-center md:p-12 p-3 w-8/12 relative'>
                 <FaQuoteRight className='absolute bottom-0 right-0' />
                 <p className='md:text-xl sm:text-lg text-[15px] font-poppins'>
-
-                    As a Computer Science major, my academic focus centers on leveraging technology 
-                    to extract valuable insights for strategic decision-making in business and industry. 
-                    With a robust foundation in computational skills and a nuanced understanding of business principles, 
-                    my enthusiasm extends to contributing innovative solutions, particularly in web design and UX/UI. I am driven to 
-                    enhance decision-making processes and drive business success by combining my technical expertise with a keen eye 
-                    for user-centric design, ensuring that the solutions I contribute are not only technically 
-                    sound but also prioritize an optimal user experience.
+                As a Computer Science major, I specialize in using technology to derive strategic insights 
+                for effective decision-making in business. With a strong foundation in computational skills and a keen 
+                understanding of business principles, my passion lies in creating innovative solutions, particularly in web design. 
+                I aim to improve decision-making processes and boost business success by merging technical expertise with a focus on user-centric design, 
+                ensuring that the solutions I provide are both technically robust and prioritize an exceptional user experience.
                 </p>
                 <FaQuoteLeft className='absolute top-0 left-0' />
 

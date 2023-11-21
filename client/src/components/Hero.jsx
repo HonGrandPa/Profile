@@ -8,18 +8,18 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
         <section id='herosection' className='flex md:flex-row-reverse justify-center flex-col items-center md:gap-16 gap-3  min-h-screen md:min-h-[75vh]'>
-            <img src={img} className='w-[260px] h-[280px] object-cover rounded-xl'/>
+            <img src={img} className='w-[260px] h-[280px] md:mt-10 object-cover rounded-xl ml-3 md:ml:0'/>
             <div className='flex flex-col gap-2.5 md:mt-7 mt-0 md:items-start items-center'>
 
-                <div className='text-center flex gap-0.5 flex-col md:items-start pt-5 pl-5'>
+                <div className='text-center flex gap-2 flex-col md:items-start pt-5 md:pl-5'>
                     <p className='text-slate-600 text-lg pl-1'>Hello, I'm</p>
                     <h1 className='text-5xl font-semibold'>Hon Lin</h1>
-                    <p className='md:text-3xl text-2xl font-medium'>Research Analyst</p>
-                    <p className='md:text-2xl text-xl font-[400]'> passionate about revealing insights</p>
-                    <p className='md:text-2xl text-xl font-[400]'> and decoding the stories numbers tell</p>
+                    <p className='md:text-3xl text-2xl  font-medium'>Frontend Developer</p>
+                    <p className='md:text-2xl text-xl font-[400]'> Enthusiast turning digital dreams into</p>
+                    <p className='md:text-2xl text-xl font-[400]'> Visually captivating realities</p>
                 </div>
 
-                <div className='flex gap-5 md:pl-4 '>
+                <div className='flex pt-2 gap-5 md:pl-4 '>
                     <a href={cv} download={cv} className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-1'>
                     <button>Download CV</button>
                     <FaDownload className='text-[16px] mb-[0.8px]'/>
