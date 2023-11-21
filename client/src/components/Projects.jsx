@@ -40,7 +40,7 @@ const Projects = () => {
           </div>
         </Link>
         
-        <Link to='https://mren-p1mw.onrender.com/'>
+        <Link to='https://homehaborhonpapa.onrender.com'>
           <div className='bg-[#E4E4D0]/40 border-[1.5px] border-black/20  shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[300px]'>
             <img src={airbnb} className='h-[220px] sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300' alt='project-img' />
             <div className='flex pl-0.5 items-center gap-0.5 mt-1'>
@@ -104,7 +104,7 @@ const Projects = () => {
         </Link>
        </SwiperSlide>
        <SwiperSlide>
-        <Link to='https://mren-p1mw.onrender.com/'>
+        <Link to='https://homehaborhonpapa.onrender.com'>
           <div className='bg-[#E4E4D0]/40 border-[3px] rounded-2xl border-black/20 p-1 shadow-md hover:shadow-lg transition-shadow overflow-hidden w-full '>
             <img src={airbnb} className='rounded-t h-[220px] w-full object-cover rounded-lg hover:scale-105 transition-scale duration-300' alt='project-img' />
           <div className='max-w-[300px] sm:max-w-full'>
