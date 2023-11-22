@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
         <section id='herosection' className='flex md:flex-row-reverse justify-center flex-col items-center md:gap-16 gap-3  min-h-screen md:min-h-[75vh]'>
-            <img src={img} className='w-[260px] h-[280px] md:mt-10 object-cover rounded-xl ml-3 md:ml:0'/>
+            <div className='w-[260px] bg-[#5F6F52]/30 relative h-[300px] md:mt-10 object-cover rounded-xl ml-3 md:ml:0'>
+            <img src={img} className='brightness-95 w-[260px] h-[300px] absolute md:-left-4  md:-top-4 rounded-xl'/>
+            </div>
             <div className='flex flex-col gap-2.5 md:mt-7 mt-0 md:items-start items-center'>
 
                 <div className='text-center flex gap-2 flex-col md:items-start pt-5 md:pl-5'>
