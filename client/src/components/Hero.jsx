@@ -1,6 +1,6 @@
 import React from 'react'
 import img from "../assets/imgs/head.jpg"
-import cv from '../assets/files/Hlin_Resume.pdf'
+import cv from '../assets/files/Hlin_Resume .pdf'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
@@ -26,7 +26,7 @@ const Hero = () => {
                     <button>Download CV</button>
                     <FaDownload className='text-[16px] mb-[0.8px]'/>
                     </a>
-                    <Link to={'https://www.linkedin.com/in/honlin31/'} className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-0.5'>
+                    <Link to={'https://www.linkedin.com/in/hlinlin31/'} className='border-[0.8px] duration-200 flex items-center border-black/80 p-2 rounded-full font-poppins hover:bg-[#AEC3AE]/30 active:shadow-md gap-0.5'>
                     <button>My Linkedin</button>
                     <AiOutlineLinkedin className='text-[18px] mt-[0.5px]' />
                     </Link>
