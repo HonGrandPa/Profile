@@ -17,7 +17,7 @@ const Skill = () => {
                         <VscGraph className='text-lg mt-1' />
                         <h2 className='text-lg'>Technical Skills</h2>
                     </div>
-                    <div className='gap-[18px] text-[11px] font-poppins flex flex-wrap justify-evenly sm:min-w-[310px] w-[210px]'>
+                    <div className='gap-[18px] text-[10.8px] font-poppins flex flex-wrap justify-evenly sm:min-w-[310px] w-[210px]'>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>MySQL</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>MongoDB</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>ReactJS</li>
@@ -38,7 +38,7 @@ const Skill = () => {
                         <FaPeopleGroup className='text-lg' />
                         <h2 className='text-lg'>Soft Skills</h2>
                     </div>
-                    <div className='flex flex-wrap gap-[15px] text-[11px] font-poppins sm:min-w-[310px] w-[210px] justify-evenly'>
+                    <div className='flex flex-wrap gap-[15px] text-[11.5px] font-poppins sm:min-w-[310px] w-[210px] justify-evenly'>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Communication</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Project Management</li>
                         <li className='hover:text-[11.5px] list-none select-none duration-200'>Creativity</li>
