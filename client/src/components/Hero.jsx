@@ -1,6 +1,6 @@
 import React from 'react'
 import img from "../assets/imgs/head.jpg"
-import cv from '../assets/files/Hlin_Resume .pdf'
+import cv from '../assets/files/Hlin_Resume.pdf'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
